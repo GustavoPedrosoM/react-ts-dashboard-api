@@ -12,7 +12,7 @@ export interface Country {
     }
 }
 
-export const getCountries = async (): Promise<Country[]> => {
+export const getAllCountries = async (): Promise<Country[]> => {
     const response = await api.get<Country[]>("/all"); 
     return response.data; 
 }
