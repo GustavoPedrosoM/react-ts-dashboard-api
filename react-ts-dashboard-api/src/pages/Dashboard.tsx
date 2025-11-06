@@ -1,7 +1,7 @@
 import { useCountries } from "../hooks/useCountries";
 import SummaryCards from "../components/SummaryCards";
 import { TopCountriesChart } from "../components/TopCountriesChart";
-import PopulationAreaChart from "../components/CountryChart";
+import PopulationAreaChart from "../components/PopulationAreaChart";
 
 export const Dashboard = () => {
   const { countries, loading, error } = useCountries();
@@ -10,7 +10,7 @@ export const Dashboard = () => {
   if (error) return <p className="text-center mt-10 text-red-500">{error}</p>;
 
   return (
-    <div className=" min-h-screen bg-blue-900 p-10">
+    <div className=" min-h-screen bg-sky-950 p-10">
       <h1 className="text-2xl font-bold mb-6 text-white">
         Top 10 países mais populosos 🌎
       </h1>
