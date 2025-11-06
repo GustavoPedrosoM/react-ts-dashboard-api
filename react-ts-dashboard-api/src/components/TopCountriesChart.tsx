@@ -21,7 +21,7 @@ export const TopCountriesChart = ({ countries }: TopCountriesChartProps) => {
     }));
 
   return (
-    <div className="bg-white rounded-2xl shadow p-6">
+    <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-md mt-8">
       <ResponsiveContainer width="100%" height={400}>
         <BarChart data={topCountries}>
           <XAxis dataKey="name" />

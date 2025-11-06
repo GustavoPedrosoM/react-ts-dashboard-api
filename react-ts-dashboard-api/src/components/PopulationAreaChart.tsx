@@ -56,18 +56,30 @@ const PopulationAreaChart: React.FC<Props> = ({ countries }) => {
       <ResponsiveContainer width="100%" height={400}>
         <ScatterChart>
           <CartesianGrid />
+
           <XAxis
             type="number"
             dataKey="area"
             name="Área (km²)"
-            tickFormatter={(v) => v.toLocaleString()}
+            tickFormatter={(v) => {
+              if (v >= 1_000_000) return `${(v / 1_000_000).toFixed(1)}M`;
+              return v.toLocaleString();
+            }}
+            domain={['auto', 'auto']}
           />
+
           <YAxis
             type="number"
             dataKey="population"
             name="População"
-            tickFormatter={(v) => v.toLocaleString()}
+            tickFormatter={(v) => {
+              if (v >= 1_000_000_000) return `${(v / 1_000_000_000).toFixed(1)}B`;
+              if (v >= 1_000_000) return `${(v / 1_000_000).toFixed(1)}M`;
+              return v.toLocaleString();
+            }}
+            domain={['auto', 'auto']}
           />
+
           <Tooltip content={<CustomTooltip />} cursor={{ strokeDasharray: "3 3" }} />
           <Scatter data={data} fill="#3b82f6" />
         </ScatterChart>
