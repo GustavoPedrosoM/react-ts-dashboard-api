@@ -21,13 +21,13 @@ O objetivo do projeto é demonstrar domínio em tecnologias front-end modernas e
 📈 Exemplo de Visualizações
 
 Top 10 países mais populosos
-![Dashboard Escuro](./src/assets/screensshots/Top10Countries.png)
+![Top10Countries](./src/assets/screenshots/Top10Countries.png)
 
 População x Área (Top 25 países)
-![Dashboard Escuro](./src/assets/screensshots/PopulationxArea.png)
+![PopulationxArea](./src/assets/screenshots/PopulationxArea.png)
 
 Densidade Populacional (Top 25 países)
-![Dashboard Escuro](./src/assets/screensshots/PopulationDensity.png)
+![PopulationDensity](./src/assets/screenshots/PopulationDensity.png)
 
 ---
 
