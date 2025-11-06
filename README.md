@@ -18,6 +18,19 @@ O objetivo do projeto é demonstrar domínio em tecnologias front-end modernas e
 
 ---
 
+📈 Exemplo de Visualizações
+
+Top 10 países mais populosos
+(./src/assets/Top10Countries.png)
+
+População x Área (Top 25 países)
+(./src/assets/PopulationxArea.png)
+
+Densidade Populacional (Top 25 países)
+(./src/assets/PopulationDensity.png)
+
+---
+
 ## 📊 Funcionalidades
 
 ✅ **Dashboard Responsivo** com layout limpo e intuitivo  
@@ -62,17 +75,6 @@ npm install
 npm run dev
 O projeto estará disponível em:
 http://localhost:5173
-
-📈 Exemplo de Visualizações
-
-Top 10 países mais populosos
-(./src/assets/Top10Countries.png)
-
-População x Área (Top 25 países)
-(./src/assets/PopulationxArea.png)
-
-Densidade Populacional (Top 25 países)
-(./src/assets/PopulationDensity.png)
 
 
 🧠 Aprendizados
