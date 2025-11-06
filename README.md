@@ -27,7 +27,7 @@ População x Área (Top 25 países)
 ![PopulationxArea](./react-ts-dashboard-api/src/assets/screenshots/PopulationxArea.png)
 
 Densidade Populacional (Top 25 países)
-![PopulationDensity](./react-ts-dashboard-api/scr/assets/screenshots/PopulationDensity.png)
+![PopulationDensity](./react-ts-dashboard-api/src/assets/screenshots/PopulationDensity.png)
 
 ---
 
