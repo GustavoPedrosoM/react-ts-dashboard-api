@@ -18,6 +18,19 @@ O objetivo do projeto é demonstrar domínio em tecnologias front-end modernas e
 
 ---
 
+📈 Exemplo de Visualizações
+
+Top 10 países mais populosos
+![Top10Countries](./react-ts-dashboard-api/src/assets/screenshots/Top10Countries.png)
+
+População x Área (Top 25 países)
+![PopulationxArea](./react-ts-dashboard-api/src/assets/screenshots/PopulationxArea.png)
+
+Densidade Populacional (Top 25 países)
+![PopulationDensity](./react-ts-dashboard-api/src/assets/screenshots/PopulationDensity.png)
+
+---
+
 ## 📊 Funcionalidades
 
 ✅ **Dashboard Responsivo** com layout limpo e intuitivo  
@@ -62,6 +75,7 @@ npm install
 npm run dev
 O projeto estará disponível em:
 http://localhost:5173
+
 
 🧠 Aprendizados
 
